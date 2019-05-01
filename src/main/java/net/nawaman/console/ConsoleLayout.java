@@ -27,7 +27,7 @@ import java.awt.LayoutManager;
 /**
  * Layout for console panel
  * 
- * @author Nawapunth Manusitthipol
+ * @author Nawapunth Manusitthipol (https://github.com/NawaMan)
  */
 class ConsoleLayout implements LayoutManager {
 

@@ -36,7 +36,7 @@ import net.nawaman.swing.FixedPanel;
 
 /**
  *
- * @author Nawapunth Manusitthipol
+ * @author Nawapunth Manusitthipol (https://github.com/NawaMan)
  */
 public class ConsolePanel extends FixedPanel {
 	
