@@ -43,7 +43,9 @@ import net.nawaman.swing.LineNumberedTextComponentPanel.Config;
  **/
 public class SimpleConsole extends ConsolePanel {
 	
-	/** The default first line of the code (in case it does not have one) */
+    private static final long serialVersionUID = 3927487626642797359L;
+    
+    /** The default first line of the code (in case it does not have one) */
 	static public final String DefaultEngineIdentifyingLine = "// @Java:";
 	/** The name of variable for the engine identifying line  */
 	static public final String EngineIdentifyingLineVarName = "$EngineIdentifyingLine";

@@ -32,7 +32,9 @@ import net.nawaman.swing.LineNumberedTextComponentPanel;
 
 public class ConsoleInputPanel extends LineNumberedTextComponentPanel {
 	
-	ConsolePanel CPanel = null;
+    private static final long serialVersionUID = 7102132293928729872L;
+    
+    ConsolePanel CPanel = null;
 	
 	public ConsoleInputPanel(ConsolePanel pCPanel) {
 		super();

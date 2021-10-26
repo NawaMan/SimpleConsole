@@ -40,7 +40,9 @@ import net.nawaman.swing.FixedPanel;
  */
 public class ConsolePanel extends FixedPanel {
 	
-	/** Flush Action ID */
+    private static final long serialVersionUID = 1408809081792089557L;
+    
+    /** Flush Action ID */
 	static public final int    FlushActionID   =     100;
 	/** Flush Action Name */
 	static public final String FlushActionName = "Flush";

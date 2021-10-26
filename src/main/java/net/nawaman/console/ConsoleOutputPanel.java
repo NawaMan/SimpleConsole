@@ -18,6 +18,7 @@
 
 package net.nawaman.console;
 
+import java.awt.geom.Point2D;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Point;
@@ -33,7 +34,9 @@ import net.nawaman.swing.text.HTMLOutputPane;
 
 public class ConsoleOutputPanel extends HTMLOutputPane {
 	
-	ConsolePanel               CPanel = null;
+    private static final long serialVersionUID = 1469281891969565839L;
+    
+    ConsolePanel               CPanel = null;
 	HTMLOutputPane.PrintStream OUT    = null;
 	HTMLOutputPane.PrintStream ERR    = null;
 
@@ -97,7 +100,7 @@ public class ConsoleOutputPanel extends HTMLOutputPane {
 	    			                         InputPanel.getTextComponent();
 	    			// Get the current caret position then find the position in text of the bottom one at the first line. 
 	    			Point P = TTC.getCaret().getMagicCaretPosition();
-	    			int Pos = BTC.viewToModel(new Point(P.x, 1));	// Any number will do
+	    			int Pos = BTC.viewToModel2D(new Point2D.Double(P.x, 1));	// Any number will do
 		    		BTC.setCaretPosition(Pos);
 		    		BTC.grabFocus();
 	    		}
